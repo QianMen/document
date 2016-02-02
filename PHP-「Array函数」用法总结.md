@@ -38,6 +38,10 @@ $target = array_column($goods_list,'status','goods_id');
 ```
 获得的$target为:
 ```php
- array( [5698] => 1 [4767] => 0 [3809] => 1 );
+ array(
+      [5698] => 1,
+      [4767] => 0,
+      [3809] => 1
+      );
 ```
 ---
