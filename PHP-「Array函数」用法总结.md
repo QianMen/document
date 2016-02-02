@@ -1,7 +1,7 @@
 <h3 style="color:green">1.array_column</h3> 
 文档地址:http://www.runoob.com/php/func-array-column.html
 
-序号|                     用途                       |收益
+序号|                     用途                       |        收益
 ----|------------------------------------------------|-----------------------
 1   |将从数据库返回的数据数组组装成id = status的格式 |避免使用foreach进行遍历
 
