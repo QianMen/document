@@ -18,7 +18,9 @@ $res = $data['value'] ? : 0;
 
 PHP可以理解数组和对象。两者的区别在于获取元素的语法不同。
 
-假设数组$array和对象$object都具有元素「key」,获取元素值得语法分别为```$value = $array['key']```和```$value = $object->key```
+假设数组$array和对象$object都具有元素「key」,获取元素值得语法分别为
+
+```$value = $array['key']```和```$value = $object->key```
 
 json_decode函数的第2个参数用来确认返回的数据格式.为true时返回数组,为false时返回对象,默认为false;
 
