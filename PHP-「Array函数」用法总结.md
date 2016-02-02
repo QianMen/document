@@ -5,6 +5,18 @@
 |--|--------------------------------------------------------|-----------------------
 |1 |将从数据库返回的数据数组组装成['id'] = ['status']的格式 |避免使用foreach进行遍历
 
+|Situation|New level/behaviour
+|-----------------------------------------------|---------------------------------
+|Indexing by a resource                         |E_NOTICE
+|Abstract static methods                        |Notice removed, triggers no error
+|"Redefining" a constructor                     |Notice removed, triggers no error
+|Signature mismatch during inheritance          |E_WARNING
+|Same (compatible) property in two used traits  |Notice removed, triggers no error
+|Accessing static property non-statically       |E_NOTICE
+|Only variables should be assigned by reference |E_NOTICE
+|Only variables should be passed by reference   |E_NOTICE
+|Calling non-static methods statically          |E_DEPRECATED
+
 ---
 
 ·将从数据库返回的数据数组组装成['id'] = ['status']的格式
