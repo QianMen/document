@@ -10,7 +10,7 @@
 ·将从数据库返回的数据数组组装成['id'] = ['status']的格式
 
 比如我们从数据库拿到的数组包含域 goods_id(商品id),status(商品状态),ctime(商品创建时间),utime(商品修改时间):
-```
+```php
 $goods_list = array(
   array(
     'goods_id' => 5698,
@@ -33,11 +33,11 @@ $goods_list = array(
 );
 ```
 我们想让goods_id作为数组的键，让status作为数组的值,则执行:
-```
+```php
 $target = array_column($goods_list,'status','goods_id');
 ```
 获得的$target为:
-```
+```php
  array( [5698] => 1 [4767] => 0 [3809] => 1 );
 ```
 ---
