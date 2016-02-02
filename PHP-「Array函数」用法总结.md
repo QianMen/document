@@ -87,3 +87,4 @@ array(
 ```
 
 ---
+[sample](http://www.baidu.com)
