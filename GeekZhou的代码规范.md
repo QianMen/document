@@ -5,4 +5,4 @@ if (!empty($data) && isset($data['k']) && $data['k'] > 10) {
     echo 'blablabla';//需要执行的对应操作
 }
 ```
-收益:避免Notice-Undefined variable和Notice-Undefined index
+收益:避免```Notice-Undefined variable```和```Notice-Undefined index```
