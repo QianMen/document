@@ -5,3 +5,9 @@
 1   |在Chrome浏览器中调用$.post()方法发送异步请求.
 2   |在终端使用Curl命令.
 3   |在PHP中调用curl_exec()方法.
+
+###在Chrome浏览器中调用$.post()方法发送异步请求.
+1.点选「Network」标签页,勾选上「preserve log」选项,然后刷新页面,找到目标请求,记录下该请求的Request URL.
+![pic 1](http://123.57.28.146/Public/Images/201602081.png)
+
+2.
