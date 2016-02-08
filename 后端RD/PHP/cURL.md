@@ -6,3 +6,9 @@
    2|设置变量      |curl_setopt( )
    3|执行并获取结果|curl_exec( )
    4|释放cURL句柄  |curl_close( )
+
+###PHP中建立cURL请求的样例:
+
+```php
+$ch = curl_init(); //初始化一个cURL会话
+```
