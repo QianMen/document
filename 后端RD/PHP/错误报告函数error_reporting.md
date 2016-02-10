@@ -20,3 +20,14 @@ error_reporting(E_ALL ^ E_NOTICE);//显示除去E_NOTICE之外的所有错误信
 error_reporting(E_ALL ^ E_WARNING ^ E_NOTICE);//显示除去E_WARNING和E_NOTICE之外的所有错误信息 
 error_reporting(E_ERROR | E_WARNING | E_PARSE);//显示ERROR,WARNING,PARSE三种错误信息
 ```
+
+###各种错误类型占返回值的权重
+错误类型 |权重
+---------|----
+E_ERROR  |1
+E_WARNING|2
+E_PARSE  |4
+E_NOTICE |8
+E_ALL    |32767
+
+举例来说,执行```error_reporting();```函数后,返回的值为7,7=1+2+4,因此ERROR,WARNING,PARSE三种错误会被报告出来.
