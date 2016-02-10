@@ -1,3 +1,6 @@
+首先介绍ini_set函数.
+只有```ini_set('display_errors',1);```语句被执行,或是php.ini文件中的display_errors参数值为on,才会在屏幕上显示错误信息
+
 ###可选参数
 
 编号|                参数
