@@ -25,4 +25,4 @@ echo htmlspecialchars($str);
 
 由此可见:在客户端阅读文本的层面上,htmlspecialchars函数不会产生影响,但是它可以阻止对应的文本被作为JavaScript源代码去执行.
 
-更过有关htmlspecialchars的文档戳[这里](http://www.runoob.com/php/func-string-htmlspecialchars.html)。
+更多有关htmlspecialchars的文档戳[这里](http://www.runoob.com/php/func-string-htmlspecialchars.html)。
