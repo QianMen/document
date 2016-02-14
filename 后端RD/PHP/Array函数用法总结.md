@@ -1,5 +1,5 @@
 ##1.array_column
-文档地址:http://www.runoob.com/php/func-array-column.html
+[文档](http://www.runoob.com/php/func-array-column.html)
 
 序号|                            用途                              |        收益
 ----|--------------------------------------------------------------|-----------------------
