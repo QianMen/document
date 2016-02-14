@@ -88,3 +88,25 @@ array(
 
 ---
 
+##3.array_intersect
+
+[文档](http://www.runoob.com/php/func-array-intersect.html)
+
+array_intersect()函数用于比较两个(或更多个)数组的键值，并返回交集。
+
+序号|                            用途                                         |        收益
+----|-------------------------------------------------------------------------|------------------------------------------
+   1|过滤客户端发送的数组,保证脚本运行时所采用的所有元素均为数据库中的已有字段|减少代码量的同时提高程序的可用性
+   
+###·过滤客户端发送的数组,保证脚本运行时所采用的所有元素均为数据库中的已有字段
+
+例如我们有一张表名叫sample,里面有「A」,「B」,「C」三个字段.
+
+```php
+$allowFields = array('A','B','C');
+$inputFields = $this->request->REQUEST['input_fields'];
+$inputFields = array_intersect((array)$inputFields,$allowFields);
+```
+上述代码就可以保证脚本运行时所采用的$inputFields中的字段都在sample表中存在.
+
+
