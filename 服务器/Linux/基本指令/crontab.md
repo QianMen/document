@@ -60,8 +60,18 @@ crond服务的监控间隔为1分钟,因此cron会每分钟去读取一次/etc/c
 ```crontab -e```  |编辑当前用户的crontab配置文件内容.
 ```crontab -r```  |编辑当前用户的crontab配置文件内容.
 
+#####5.crontab服务
 
+命令                       |含义
+---------------------------|------------------------------------------------------------------------------------------------
+```service crond status``` |查看crontab服务状态
+```service crond start```  |启动crontab服务
+```service crond stop```   |关闭crontab服务
+```service crond restart```|重启crontab服务
+```service crond reload``` |重载crontab服务配置
 
-    
-🌰
+#####6.🌰
+
+(参考文章1)[http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html]
+(参考文章2)[http://www.cnblogs.com/ggjucheng/archive/2012/08/19/2646763.html]
 
