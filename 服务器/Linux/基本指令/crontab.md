@@ -72,6 +72,8 @@ crond服务的监控间隔为1分钟,因此cron会每分钟去读取一次/etc/c
 
 #####6.🌰
 
+#####7.参考文章
+
 [参考文章1](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
 
 [参考文章2](http://www.cnblogs.com/ggjucheng/archive/2012/08/19/2646763.html)
