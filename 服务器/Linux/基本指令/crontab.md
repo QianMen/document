@@ -80,6 +80,8 @@ crond服务的监控间隔为1分钟,因此cron会每分钟去读取一次/etc/c
 
 这样就配置了一个最简单的crontab,每分钟执行一次命令.
 
+输入命令```crontab -r```后,crontab就不再执行任何命令了.
+
 用```tail -f sample2```命令查看命令的执行情况:
 
 ![](http://123.57.28.146/Public/Images/201602201.png)
