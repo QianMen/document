@@ -26,3 +26,6 @@ while($row = mysql_fetch_array($res)) {
 
 mysql_close($conn);//断开与mysql的连接
 ```
+
+#####执行结果
+![](http://123.57.28.146/Public/Images/201602211.png)
