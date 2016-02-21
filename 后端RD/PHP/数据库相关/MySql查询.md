@@ -1,5 +1,3 @@
-#####数据库:test
-
 #####geekzhou表结构
 
 Field  |    Type    |Null|Key|Default|Extra
@@ -10,9 +8,9 @@ status | tinyint(4) |YES |   |   0   |
 
 #####代码
 ```php
-$conn = mysql_connect('localhost','','');
+$conn = mysql_connect('localhost','','');//连接mysql
 
-mysql_select_db('test',$conn);
+mysql_select_db('test',$conn);//指定数据库
 
 mysql_query("SET NAMES UTF8");//设定字符集为UTF8,否则中文会显示为乱码
 
@@ -26,5 +24,5 @@ while($row = mysql_fetch_array($res)) {
     echo "<br />";
 }
 
-mysql_close($conn);
+mysql_close($conn);//断开与mysql的连接
 ```
