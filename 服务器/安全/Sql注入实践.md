@@ -49,3 +49,45 @@ INSERT INTO users (username,password,email) VALUES ('ZhouYan',md5('test'),'zhouy
 </body>
 </html>
 ```
+
+#####后端登陆验证脚本validate.php
+```php
+<html>
+<head>
+    <title>登录验证</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+</head>
+<body>
+<?php
+$conn = @mysql_connect("localhost", 'root', 'root') or die("数据库连接失败！");;
+mysql_select_db("test", $conn) or die("您要选择的数据库不存在");
+$is_safe = $_POST['is_safe'];
+$name = $_POST['username'];
+$pwd = $_POST['password'];
+if ($is_safe == 'on') {
+    $name = addslashes($name);
+    $pwd = addslashes($pwd);
+}
+$pwd = md5($pwd);
+$sql = "select * from users where username='$name' and password='$pwd'";
+$query = mysql_query($sql);
+$arr = mysql_fetch_array($query);
+if (is_array($arr)) {
+    header("Location:manager.php");
+} else {
+    echo "您的用户名或密码输入有误，<a href=\"sql_injection.html\">请重新登录！</a>";
+}
+?>
+</body>
+</html>
+```
+
+登陆成功脚本manager.php
+```php
+<meta charset='UTF-8'>
+
+<?php
+
+echo "这里是管理员界面,hack 成功.";
+```
+
