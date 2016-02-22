@@ -82,7 +82,7 @@ if (is_array($arr)) {
 </html>
 ```
 
-登陆成功脚本manager.php
+#####登陆成功脚本manager.php
 ```php
 <meta charset='UTF-8'>
 
@@ -91,3 +91,20 @@ if (is_array($arr)) {
 echo "这里是管理员界面,hack 成功.";
 ```
 
+#####实验
+
+地址:http://123.57.28.146/sql_injection.html
+
+正常情况下,输入用户名「GeekZhou」,密码「testtest」,那么不论是否开启「防Sql注入」功能,都能顺利登陆.
+
+下面实验Sql注入:
+
+用户名输入```' OR 1 = 1 #```,密码部分随便输入任何内容,不开启「防Sql注入」功能,就可以顺利登陆了!
+
+![](http://123.57.28.146/Public/Images/201602221.png)
+
+核心原理在于,输入上图的数据后,Sql语句变为了:
+
+```select * from users where username='' OR 1 = 1 #' and password='随便你输入什么都可以!'```
+
+这样的话#后面的部分被注释掉了,因为where部分恒为真,在表中有数据的情况下必能查出数据.
