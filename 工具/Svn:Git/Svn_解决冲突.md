@@ -23,3 +23,18 @@ tc  |使用他人的版本
   3 |Shop_Shutdown.class.php.r798645 |A提交前的版本,即未导致冲突的版本
   4 |Shop_Shutdown.class.php.r800029 |A提交后的版本,即导致冲突的版本
 
+2.沟通并解决冲突
+
+在文件Shop_Shutdown.class.php中:
+
+<<<<<<< .mine和=======之间是工程师B(你)修改的内容,=======与>>>>>>> .r800029之间是工程师A修改的内容.
+
+叫上工程师A,确认哪些代码可以留下,删除多余的代码,删除<<<<<<< .mine,=======,>>>>>>> .r800029
+
+3.测试,测试,确认代码无误
+
+4.通知Svn冲突已解决
+```svn resolve Shop_Shutdown.class.php```
+```svn ci -m "@#%@^@*#^#*" Shop_Shutdown.class.php```
+
+至此,冲突就被解决了.
