@@ -38,7 +38,7 @@ tc  |使用他人的版本
 #####3.测试,测试,确认代码无误
 
 #####4.通知Svn冲突已解决
-```svn resolve Shop_Shutdown.class.php```
+```svn resolved Shop_Shutdown.class.php```
 
 ```svn ci -m "@#%@^@*#^#*" Shop_Shutdown.class.php```
 
