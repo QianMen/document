@@ -15,9 +15,10 @@ tc  |使用他人的版本
 
 此时会生成下面几个文件:
 
-文件名
-------
-A
-B
-C
+序号|文件名
+----|----------------------------
+  1 |Shop_Shutdown.class.php
+  2 |Shop_Shutdown.class.php.mine
+  3 |Shop_Shutdown.class.php.r798645
+  4 |Shop_Shutdown.class.php.r800029
 
