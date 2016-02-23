@@ -48,4 +48,4 @@ tc  |使用他人的版本
 
 1.未解决冲突就提交代码会提交失败
 
-
+2.如果不解决冲突,暴力删除Shop_Shutdown.class.php.mine,Shop_Shutdown.class.php.r798645,Shop_Shutdown.class.php.r800029这三个文件,那么Svn也会认为冲突被解决了,但是冲突依然存在,Shop_Shutdown.class.php中不仅有别人的修改,还有令人生厌的<=>符号.
