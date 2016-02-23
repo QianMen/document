@@ -18,7 +18,7 @@ tc  |使用他人的版本
 
 序号|           文件名               |   含义
 ----|--------------------------------|-----------------------------------------------------------------
-  1 |Shop_Shutdown.class.php         |包含了A和B所有的修改,以<<<<<<< .mine ======= >>>>>>> .r800029分隔
+  1 |Shop_Shutdown.class.php         |包含了A和B所有的修改,以<<<<<<< .mine,=======,>>>>>>> .r800029分隔
   2 |Shop_Shutdown.class.php.mine    |B的修改,也就是update之前的Shop_Shutdown.class.php 
   3 |Shop_Shutdown.class.php.r798645 |A提交前的版本,即未导致冲突的版本
   4 |Shop_Shutdown.class.php.r800029 |A提交后的版本,即导致冲突的版本
