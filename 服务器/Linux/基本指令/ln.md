@@ -1,4 +1,4 @@
-###ls
+###ln
 #####建立软链(符号连接Symbolic Link)
 ```shell
 ln -s a b
