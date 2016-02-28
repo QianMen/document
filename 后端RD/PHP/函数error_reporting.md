@@ -56,3 +56,7 @@ errno是一组常量,代表错误的等级,同时也有一组整数和其对应,
 echo E_WARNING;
 ```
 可以打印错误对应的二进制掩码.
+```php
+restore_error_handler();
+```
+可以取消错误接管
