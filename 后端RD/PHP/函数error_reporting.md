@@ -34,6 +34,8 @@ E_ALL    |32767
 
 #####定制错误处理函数
 
+在定制了错误处理函数后,当遇到各类错误时,浏览器不再显示默认的报错文字,而是显示你定制的!
+
 ```php
 function customError($errno,$errstr,$errfile,$errline){
 
