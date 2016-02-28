@@ -31,3 +31,18 @@ E_NOTICE |8
 E_ALL    |32767
 
 举例来说,执行```error_reporting();```函数后,返回的值为7,7=1+2+4,因此ERROR,WARNING,PARSE三种错误会被报告出来.
+
+#####定制错误处理函数
+
+```php
+function customError($errno,$errstr,$errfile,$errline){
+
+    echo "<b>错误代码:</b> [${errno}] ${errstr}<br>";
+    echo "错误所在的代码行: {$errline} 文件{$errfile}<br>";
+    echo " PHP 版本 ",PHP_VERSION,"(",PHP_OS,")<br>";
+    //die();
+
+}
+
+set_error_handler("customError",E_ALL|E_STRICT);
+```
