@@ -50,3 +50,5 @@ set_error_handler("customError",E_ALL|E_STRICT);
 ```
 
 errno是一组常量,代表错误的等级,同时也有一组整数和其对应,但一般使用其字符串值表示,这样语义更好一点.比如E_WARNING，其二进制掩码为2,表示警告信息.
+
+代码```php echo E_WARNING;```可以打印错误对应的二进制掩码.
