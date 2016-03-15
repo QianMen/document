@@ -16,7 +16,6 @@
 ---
 
 # 工作经历
-（工作经历按逆序排列，最新的在最前边，按公司做一级分组，公司内按二级分组）
 
 ## 美丽说-www.meilishuo.com ( 2015年7月 ~ 至今 )
 ![美丽说Logo](http://123.57.28.146/Public/Images/meilishuo.png)
@@ -47,6 +46,10 @@
 ### 其他项目
 
 商品橱窗状态维护,商家退店,在Chrome控制台完成一些审核操作(setTimeout+$.post).
+
+### 公司内部开发流程
+
+PM给出项目需求后,由RD牵头,利用SMART原则确定工作排期并发出排期邮件.RD和FE在开发完毕并自测无误后进行联调,联调后提测.QA收到提测申请后开始测试,测试完毕后给出测试报告,将代码打包,次日将代码随大包上线.如遇到线上问题时,可以通过push的方式将单个文件传到线上以解决问题.
 
  
 ## 新浪网-www.sina.com.cn ( 2015年1月 ~ 2015年6月 )
@@ -81,3 +84,15 @@ http://www.lanqiao.org/pages/megagame/megagamev2_winnerlist.jsp
 ## 英语能力
 
 大学英语六级(CET-6) 480分
+
+# 技能清单
+
+|类型|技能明细|
+----|-------|
+后端 |Kafka,Shell,Nginx,PHP,Perl,Yaf,ThinkPhp(自己搭建了一个 http://123.57.28.146)|
+前端 |Bootstrap,Html,Css,JavaScript,Jquery,Smarty|
+数据库|Mysql,Sphinx,Redis,Memcache|
+数据处理|RegExp,少量Awk|
+版本管理工具|Svn|
+写作|Markdown|
+
