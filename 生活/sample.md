@@ -18,7 +18,7 @@
 # 工作经历
 （工作经历按逆序排列，最新的在最前边，按公司做一级分组，公司内按二级分组）
 
-## 美丽说[www.meilishuo.com] ( 2015年7月 ~ 至今 )
+## 美丽说-www.meilishuo.com ( 2015年7月 ~ 至今 )
 ![美丽说Logo](http://http://123.57.28.146/Public/Images/meilishuo.png)
 
 ### DEF项目 
