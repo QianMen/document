@@ -54,4 +54,30 @@
 
 - 汽车频道/PHP研发工程师(实习,评分为A,并获得校招offer)
 
-### MNO项目 
+### 日常工作
+
+- 利用PHP和Perl开发auto.sina.com.cn中页面的后端逻辑;
+- 利用Html/Css/JavaScript开发一些auto.sina.com.cn中的前端页面;
+- 利用RegExp做一些数据分析工作
+- 对编辑提供日常技术支持;
+
+### 欢乐购车季项目
+利用Yaf框架进行“欢乐购车季”项目的开发.
+
+---
+
+## 所获荣誉
+
+- 2014年获得CSDN算法挑战赛1月冠军(CSDN对此进行了专访并于2月27日在首页头条进行展示)
+
+http://www.csdn.net/article/2014-02-27/2818562
+
+- 2014年获得第五届工信部蓝桥杯C/C++竞赛本科B组全国二等奖;
+
+http://www.lanqiao.org/pages/megagame/megagamev2_winnerlist.jsp
+
+- 2015年获得北京市励志奖学金;
+
+## 英语能力
+
+大学英语六级(CET-6) 480分
