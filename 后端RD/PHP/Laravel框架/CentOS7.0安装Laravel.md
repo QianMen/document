@@ -8,3 +8,9 @@
 composer config -g repo.packagist composer https://packagist.phpcomposer.com
 ```
 [镜像官网](http://pkg.phpcomposer.com/)
+
+######3.执行如下命令可以安装一个Laravel的示例项目
+
+```
+composer create-project laravel/laravel learnlaravel5 5.0.22
+```
