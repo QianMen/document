@@ -7,4 +7,4 @@
 ```
 composer config -g repo.packagist composer https://packagist.phpcomposer.com
 ```
-![](http://pkg.phpcomposer.com/)
+[镜像官网](http://pkg.phpcomposer.com/)
