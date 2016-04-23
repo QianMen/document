@@ -52,3 +52,9 @@ server {
             deny all;         
         }  
 ```
+
+######5.Laravel数据库配置文件位置
+
+```
+learnlaravel5/.env
+```
