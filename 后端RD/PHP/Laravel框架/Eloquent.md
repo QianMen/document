@@ -47,7 +47,11 @@ Schema::create('samples', function(Blueprint $table)
 });
 ```
 
-- 执行 php artisan migrate
+- 执行命令:
+```
+php artisan migrate
+```
+
 - 可以看到数据表samples已经生成了
 ```
 +-------------+------------------+------+-----+---------------------+----------------+
