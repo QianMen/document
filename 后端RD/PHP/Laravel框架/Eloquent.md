@@ -10,3 +10,57 @@ DB_DATABASE=laravel5
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
+
+######生成一个模型
+
+```
+//生成的model位于app目录下
+php artisan make:model sample
+```
+
+######告知Laravel可填充字段
+
+```php
+class Sample extends Model {
+
+ protected $fillable = [
+    'title',
+    'body',
+    'published_at'
+  ];
+
+}
+```
+
+######为模型建立对应的数据表
+
+- 进入database/migrations文件夹的***_create_***_table.php文件修改Schema::create方法
+
+```php
+Schema::create('samples', function(Blueprint $table)
+{
+    $table->increments('id');
+    $table->string('name');
+    $table->integer('age');
+    $table->text('description');
+    $table->timestamps();
+});
+```
+
+- 执行 php artisan migrate
+- 可以看到数据表samples已经生成了
+```
++-------------+------------------+------+-----+---------------------+----------------+
+| Field       | Type             | Null | Key | Default             | Extra          |
++-------------+------------------+------+-----+---------------------+----------------+
+| id          | int(10) unsigned | NO   | PRI | NULL                | auto_increment |
+| name        | varchar(255)     | NO   |     | NULL                |                |
+| age         | int(11)          | NO   |     | NULL                |                |
+| description | text             | NO   |     | NULL                |                |
+| created_at  | timestamp        | NO   |     | 0000-00-00 00:00:00 |                |
+| updated_at  | timestamp        | NO   |     | 0000-00-00 00:00:00 |                |
++-------------+------------------+------+-----+---------------------+----------------+
+6 rows in set (0.00 sec)
+```
+
+
