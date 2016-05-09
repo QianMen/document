@@ -4,6 +4,7 @@
 |----|----|
 | 1  |Git文件的3种状态|
 | 2  |Git的3种工作区域|
+| 3  |配置Git的环境变量|
 
 ######1.Git文件的3种状态
 
@@ -24,3 +25,11 @@
 |  3 |本地仓库(repository)|
 
 [示意图](http://static.open-open.com/lib/uploadImg/20120201/20120201121205_151.png)
+
+######3.配置Git的环境变量
+
+|命令|作用范围|配置文件地址|
+|----|--------|------------|
+|git config --system|系统中所有用户|/etc/gitconfig|
+|git config --global|系统中的当前用户|~/.gitconfig|
+|git config         |当前项目|.git/config|
