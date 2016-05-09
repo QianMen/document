@@ -5,6 +5,7 @@
 | 1  |Git文件的3种状态|
 | 2  |Git的3种工作区域|
 | 3  |配置Git的环境变量|
+| 4  |获取帮助|
 
 ######1.Git文件的3种状态
 
@@ -33,3 +34,11 @@
 |git config --system|系统中所有用户|/etc/gitconfig|
 |git config --global|系统中的当前用户|~/.gitconfig|
 |git config         |当前项目|.git/config|
+
+######4.获取帮助
+
+如果想要获取config相关的帮助,则执行:
+
+```
+git help config
+```
