@@ -23,4 +23,4 @@
 |  2 |暂存区域(staging area)   |
 |  3 |本地仓库(repository)|
 
-![图](http://static.open-open.com/lib/uploadImg/20120201/20120201121205_151.png)
+[图](http://static.open-open.com/lib/uploadImg/20120201/20120201121205_151.png)示意图
