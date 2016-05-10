@@ -20,6 +20,11 @@ $ git init
 $ git add *.c
 ```
 
+该操作完成两件事:
+
+- add file into staged area
+- 将未跟踪的文件标记为需要跟踪
+
 ######克隆仓库
 
 ```
