@@ -38,4 +38,5 @@ $ git clone [url]
 
 ```
 $ git diff //将working directory中的当前文件和暂存区域快照进行比较
+$ git dif --staged //将已经暂存起来的文件和上次提交的快照进行比较
 ```
