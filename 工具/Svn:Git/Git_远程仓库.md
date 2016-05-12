@@ -10,4 +10,7 @@
 - 同步远程服务器上的数据到本地 ```git fetch origin```
 - 推送本地分支
 
+```git push [远程仓库名] [branch name]```
+
+
 ######2.远程分支添加 ```git remote add```
