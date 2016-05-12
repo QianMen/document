@@ -23,7 +23,8 @@ git checkout [branch name]
 ######3.合并分支
 
 ```
-git merge [branch name]
+git merge [branch name]//把分支branch name合并进当前分支
+//分支合并后,会自动创建一个新的提交对象,但是不会提交
 ```
 
 - 快进 Fast forward
