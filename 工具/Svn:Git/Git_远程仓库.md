@@ -13,4 +13,6 @@
 ```git push [远程仓库名] [branch name]```
 
 
-######2.远程分支添加 ```git remote add```
+######2.远程分支添加 
+
+```git remote add```
