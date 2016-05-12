@@ -9,6 +9,7 @@
 
 ```
 git branch [branch name]
+git checkout -b [branch name] //新建一个分支并切换到该分支
 ```
 
 ######2.切换分支
