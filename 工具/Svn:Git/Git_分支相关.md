@@ -6,7 +6,8 @@
 |  2 |分支切换|git checkout [branch name]|
 |  3 |分支合并|git merge [branch name]|
 |  4 |分支删除|git branch -d [branch name]|
-|  5 |冲突解决||
+|  5 |分支管理||
+|  6 |冲突解决||
 
 ######1.分支新建
 
@@ -38,7 +39,12 @@ git merge [branch name]//把分支branch name合并进当前分支
 git branch -d [branch name]
 ```
 
-######5.冲突解决
+######5.分支管理
+
+- 列出当前所有分支的清单 ```git branch```
+- 查看各个分支最后一个提交对象的信息 ```git branch -v ```
+
+######6.冲突解决
 
 查看哪些文件在合并过程中发生冲突
 
