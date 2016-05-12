@@ -2,25 +2,26 @@
 
 |序号|内容|命令|
 |----|----|----|
-|  1 |新建分支|git branch [branch name]|
-|  2 |切换分支|git checkout [branch name]|
-|  3 |合并分支|git merge [branch name]|
-|  4 |删除分支|git branch -d [branch name]|
+|  1 |分支新建|git branch [branch name]|
+|  2 |分支切换|git checkout [branch name]|
+|  3 |分支合并|git merge [branch name]|
+|  4 |分支删除|git branch -d [branch name]|
+|  5 |冲突解决||
 
-######1.新建分支
+######1.分支新建
 
 ```
 git branch [branch name]
 git checkout -b [branch name] //新建一个分支并切换到该分支,相当于执行 git branch [branch name],git checkout [branch name]
 ```
 
-######2.切换分支
+######2.分支切换
 
 ```
 git checkout [branch name]
 ```
 
-######3.合并分支
+######3.分支合并
 
 ```
 git merge [branch name]//把分支branch name合并进当前分支
@@ -31,11 +32,23 @@ git merge [branch name]//把分支branch name合并进当前分支
 
 当前分支所指向的提交对象是要并入的分支的直接上游,Git只需要把当前分支指针直接右移
 
-######4.删除分支
+######4.分支删除
 
 ```
 git branch -d [branch name]
 ```
+
+######5.冲突解决
+
+查看哪些文件在合并过程中发生冲突
+
+```
+git status
+//任何包含未解决冲突的文件都会以未合并(unmerged)的状态列出
+```
+
+- 如何解决冲突
+
 
 
 
