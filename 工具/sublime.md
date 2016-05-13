@@ -6,5 +6,7 @@
 
 ######1.安装插件
 
-- 按 [control+`]打开Console 
+- 初始化
+
+1.按```control + ` ```调出Console
 
