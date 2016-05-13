@@ -6,6 +6,5 @@
 
 ######1.安装插件
 
-- 打开包管理控制器
+- 按 [control+`]打开Console 
 
-```command + shift + p```
