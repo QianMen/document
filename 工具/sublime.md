@@ -8,4 +8,4 @@
 
 - 打开包管理控制器
 
-```command+shift+p```
+```command + shift + p```
