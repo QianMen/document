@@ -1,12 +1,12 @@
-######目录
+#####目录
 
 |序号|  内容  |
 |----|--------|
 |  1 |安装插件|
 
-######1.安装插件
+#####1.安装插件
 
-- 初始化
+######初始化
 
 1.按```control + ` ```调出Console
 
@@ -18,7 +18,7 @@ import urllib.request,os;pf = 'Package Control.sublime-package';ipp = sublime.in
 
 3.能够看到```Perferences -> package settings -> package control```则证明安装成功
 
-- 安装插件
+######安装插件
 
 1.Mac 下按 ```command + shift + p```调出命令面板
 
