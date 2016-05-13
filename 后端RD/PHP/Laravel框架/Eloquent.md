@@ -51,7 +51,7 @@ Schema::create('samples', function(Blueprint $table)
     $table->string('name');
     $table->integer('age');
     $table->text('description');
-    $table->timestamps();
+    $table->timestamps();//在默认情况下,在数据库表里需要有updated_at和created_at两个字段.如果您不想设定或自动更新这两个字段,则将类里的$timestamps属性设为false即可
 });
 ```
 
