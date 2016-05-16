@@ -15,5 +15,5 @@
 |序号|平台|
 |----|----|
 | 01 |LNMP/LAMP|
-| 02 |JavaEE|
+| 02 |JavaEE(Java Enterprise Edition)|
 | 03 |ASP.NET|
