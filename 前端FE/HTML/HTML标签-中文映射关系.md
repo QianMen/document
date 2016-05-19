@@ -1,7 +1,7 @@
 
 |HTML标签|中文|
 |--------|----|
-| <html> |HTML|
+| html |HTML|
 | <head> |头信息|
 | <body> |HTML主体|
 | <title>|网页标题|
