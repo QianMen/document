@@ -26,7 +26,7 @@
 
 ###Step3.代码样例
 
-```
+```php
 $data = [];
 $data[] = 'Geek';
 $data[] = 'Zhou';
