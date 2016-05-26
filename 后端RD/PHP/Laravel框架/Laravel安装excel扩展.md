@@ -24,3 +24,25 @@
 
 4.执行命令```php artisan vendor:publish```
 
+###Step3.代码样例
+
+```
+    $data = [];
+    $data[] = 'Geek';
+    $data[] = 'Zhou';
+
+    Excel::create('GeekZhou', function($excel) use ($data) {
+
+            $excel->sheet("GeekZhou1",function($sheet) use($data){
+
+                    $sheet->setWidth(array(
+                            'A' => 15,
+                            'B' => 30,
+                            'C' => 60,
+                    ));
+                    $sheet->setFontSize(14);
+                    $sheet->fromArray($data,'','A1',false,false);
+            });
+
+    })->export('xlsx');
+```
