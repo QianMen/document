@@ -11,3 +11,14 @@
 /bin/dd if=/dev/zero of=/var/swap.1 bs=1M count=128
 /sbin/mkswap /var/swap.1
 ```
+
+###Step2.利用Composer安装maatwebsite/excel
+
+1.在composer.json下的require中加入```"maatwebsite/excel": "1.*```,然后执行命令```composer update```进行更新
+
+2.将```"maatwebsite/excel": "1.*```修改为```maatwebsite/excel": "~2.0.0"```,然后执行命令```composer update```再次更新
+
+3.添加```'Maatwebsite\Excel\ExcelServiceProvider'```,到config/app.php中的providers数组中.添加```Maatwebsite\Excel\ExcelServiceProvider```,到config/app.php中的providers数组中 
+
+4.执行命令```php artisan vendor:publish```
+
