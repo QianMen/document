@@ -18,7 +18,9 @@
 
 2.将```"maatwebsite/excel": "1.*```修改为```maatwebsite/excel": "~2.0.0"```,然后执行命令```composer update```再次更新
 
-3.添加```'Maatwebsite\Excel\ExcelServiceProvider'```,到config/app.php中的providers数组中.添加```Maatwebsite\Excel\ExcelServiceProvider```,到config/app.php中的providers数组中 
+3.添加```'Maatwebsite\Excel\ExcelServiceProvider'```,到config/app.php中的providers数组中.
+
+添加```Maatwebsite\Excel\ExcelServiceProvider```,到config/app.php中的providers数组中.
 
 4.执行命令```php artisan vendor:publish```
 
