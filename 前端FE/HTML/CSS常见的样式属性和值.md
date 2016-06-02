@@ -14,5 +14,7 @@
 |font-family|字体族科|Times,serif(多个族科用逗号分隔,以防止不存在的字体族科)|
 |font-size  |字体大小|可以使用绝对大小,相对大小,长度或百分比|
 |font-style |字体风格|normal(普通),italic(斜体),oblique(倾斜)|
+|font-weight|字体加粗|normal,bold,bolder,lighter|
+|font-variant|字体变形|normal(普通),small-caps(小型大写字母)|
 
 
