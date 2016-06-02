@@ -3,6 +3,7 @@
 |序号|属性类型|
 |----|--------|
 | 1  |字体属性|
+| 2  |颜色属性|
 
 #####主要选择器的优先级关系
 
@@ -17,5 +18,11 @@
 |font-style |字体风格|normal(普通),italic(斜体),oblique(倾斜)|
 |font-weight|字体加粗|normal,bold,bolder,lighter|
 |font-variant|字体变形|normal(普通),small-caps(小型大写字母)|
+
+######2.颜色属性
+
+|属性|描述|属性值|
+|----|----|------|
+|color|颜色|blue;#000080;#0C0;|
 
 
