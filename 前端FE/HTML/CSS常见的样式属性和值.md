@@ -4,6 +4,7 @@
 |----|--------|
 | 1  |字体属性|
 | 2  |颜色属性|
+| 3  |背景属性|
 
 #####主要选择器的优先级关系
 
@@ -25,4 +26,13 @@
 |----|----|------|
 |color|颜色|blue;#000080;#0C0;|
 
+######3.背景属性
+
+|属性|描述|属性值|
+|----|----|------|
+|background-color|背景颜色|green|
+|background-image|背景图像|图片URL或none(无)|
+|background-repeat|背景重复|repeat,repeat-x,repeat-y,no-repeat|
+|background-attachment|背景附件|scroll(滚动)或fixed(固定)|
+|background-position|背景位置|横向的关键字(left,center,right),纵向的关键字(top,center,bottom),百分比和长度也可用作安排背景图像的位置|
 
