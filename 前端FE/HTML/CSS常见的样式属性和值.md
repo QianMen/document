@@ -54,3 +54,7 @@
 |属性|描述|属性值|
 |----|----|------|
 |border-style|边框风格|none,dotted(点线式边框),dashed(破折线式边框),solid(直线式边框),double(双线式边框),groove(槽线式边框),ridge(脊线式边框),inset(内嵌效果的边框),outset(突起效果的边框)|
+|border-width|边框宽度|关键字或长度,不允许使用负值长度|
+|border-color|边框颜色|green|
+
+
